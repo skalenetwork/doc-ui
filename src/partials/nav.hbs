@@ -1,0 +1,11 @@
+<div class="nav-container"{{#if page.component}} data-component="{{page.component.name}}" data-version="{{page.version}}"{{/if}}>
+  <aside class="nav">
+    <div class="panels">
+{{#if (eq @root.page.component.name "docs")}}
+{{> nav-home}}
+{{else}}
+{{> nav-menu}}
+{{/if}}
+    </div>
+  </aside>
+</div>

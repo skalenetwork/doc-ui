@@ -1,0 +1,16 @@
+    <link rel="stylesheet" href="{{{uiRootPath}}}/css/site.css">
+    {{#if env.ALGOLIA_API_KEY}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script type="text/javascript">
+    algoliasearchNetlify({
+        appId: 'XJ8IQ75APO',
+        apiKey: '{{env.ALGOLIA_SEARCH_API_KEY}}',
+        siteId: '6e1a2f3c-f2c8-43bf-a3cd-40e2a9530fe0',
+        branch: 'master',
+        selector: 'div#search',
+    });
+    </script>
+    <!-- fetched from https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css -->
+    {{/if}}
+    <link rel="icon" href="{{{uiRootPath}}}/favicon.ico" type="image/x-icon">

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Ubuntu Mono Regular"),
+    local("UbuntuMono-Regular"),
+    url(./src/fonts/Ubuntu/UbuntuMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Ubuntu Mono Medium"),
+    local("UbuntuMono-Medium"),
+    url(./src/fonts/Ubuntu/UbuntuMono-Bold.ttf) format("truetype");
+}

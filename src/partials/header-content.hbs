@@ -1,0 +1,27 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}">
+        <img class="logo" width="148" height="39" alt="SKALE" src={{{uiRootPath}}}/img/Skale_Logo_Black.png />
+        {{site.title}}
+      </a>
+      <div id="search" class="navbar-item" >
+        {{!-- <input id="search-input" type="text" placeholder="Search docs"> --}}
+      </div>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/skalenetwork">Github</a>
+        <a class="navbar-item" href="https://forum.skale.network/">Forum</a>
+        <a class="navbar-item" href="http://skale.chat/">Discord</a>
+        <a class="navbar-item" href="https://skale.network/blog">Blog</a>
+        <a class="navbar-item" href="https://skale.network/">Website</a>
+      </div>
+    </div>
+  </nav>
+</header>
