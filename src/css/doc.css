@@ -327,8 +327,8 @@ h1.page + aside.toc.embedded {
 }
 
 .doc .admonitionblock.note .icon {
-  background-color: rgb(36, 36, 167);
-  color: var(--color-white);
+  background-color: var(--note-color);
+  color: var(--note-on-color);
 }
 
 /* .doc .admonitionblock.note td.content::before {
