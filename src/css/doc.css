@@ -327,15 +327,16 @@ h1.page + aside.toc.embedded {
 }
 
 .doc .admonitionblock.note .icon {
-  display: none;
+  background-color: rgb(36, 36, 167);
+  color: var(--color-white);
 }
 
-.doc .admonitionblock.note td.content::before {
+/* .doc .admonitionblock.note td.content::before {
   content: "Note";
   color: rgb(36, 36, 167);
   display: block;
   margin-bottom: 3px;
-}
+} */
 
 .doc .admonitionblock.tip .icon {
   background-color: var(--tip-color);
