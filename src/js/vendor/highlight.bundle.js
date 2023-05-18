@@ -36,7 +36,7 @@
   // hljs.registerLanguage('xml', require('highlight.js/lib/languages/xml'))
   // hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'))
   hljsDefineSolidity(hljs);
-  hljs.initHighlightOnLoad();
+  hljs.highlightAll();
   ;[].slice.call(document.querySelectorAll('pre code.hljs')).forEach(function (node) {
     hljs.highlightBlock(node)
   })
