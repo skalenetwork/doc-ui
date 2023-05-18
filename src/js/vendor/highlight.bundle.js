@@ -2,7 +2,7 @@
   'use strict'
 
   var hljs = require('highlight.js')
-  var hljsDefineSolidity = require("highlightjs-solidity")
+  var hljsDefineSolidity = require('highlightjs-solidity')
   // hljs.registerLanguage('asciidoc', require('highlight.js/lib/languages/asciidoc'))
   hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'))
   // hljs.registerLanguage('clojure', require('highlight.js/lib/languages/clojure'))
@@ -35,7 +35,7 @@
   // hljs.registerLanguage('swift', require('highlight.js/lib/languages/swift'))
   // hljs.registerLanguage('xml', require('highlight.js/lib/languages/xml'))
   // hljs.registerLanguage('yaml', require('highlight.js/lib/languages/yaml'))
-  hljs.registerLanguage("typescript", require('highlight.js/lib/languages/typescript'))
+  hljs.registerLanguage('typescript', require('highlight.js/lib/languages/typescript'))
   hljsDefineSolidity(hljs)
   // hljs.highlightAll();
   ;[].slice.call(document.querySelectorAll('pre code.hljs')).forEach(function (node) {
