@@ -38,6 +38,36 @@ Eu mea inani iriure.
 }
 ----
 
+[source, solidity]
+----
+contract HelloWorld {
+  
+  bool public isPrivate;
+
+  function toggle() external view {
+    isPrivate = !isPrivate;
+  }
+  
+  constructor() {
+    isPrivate = false;
+  }
+
+}
+----
+
+[source, typescript]
+----
+const bool = true as constant;
+
+interface ISomeInterface = {
+  foo: string;
+}
+
+const value = {
+  foo: "bar"
+} satisfies ISomeInterface;
+----
+
 == Something else
 
 this is something else 
