@@ -17,6 +17,55 @@ Vestibulum consectetur nec urna a luctus.
 Quisque pharetra tristique arcu fringilla dapibus.
 https://example.org[Curabitur,role=unresolved] ut massa aliquam, cursus enim et, accumsan lectus.
 
+== Main cards
+
+++++
+<div class="card-section">
+<div class="sectionbody">
+++++
+
+[.card.card-primary.card-build]
+--
+xref:develop::index.adoc[[.card-title]#Build on SKALE# [.card-body]#pass:q[Building in Web3 has never been easier]#]
+--
+[.card.card-primary.card-code-block]
+--
+xref:recipes::index.adoc[[.card-title]#Developer Recipes# [.card-body]#pass:q[Guided tutorials to help you unlock the power of SKALE]#]
+--
+[.card.card-primary.card-chain]
+--
+xref:skaled::index.adoc[[.card-title]#SKALE Chain# [.card-body]#pass:q[Learn about the technology powering the network]#]
+--
+[.card.card-primary.card-bridge]
+--
+xref:ima::index.adoc[[.card-title]#SKALE IMA Bridge# [.card-body]#pass:q[An Ethereum - SKALE bridge using threshold cryptography.]#]
+--
+[.card.card-primary.card-metaport]
+--
+xref:metaport::index.adoc[[.card-title]#Metaport# [.card-body]#pass:q[UI Widget to add bridging to your dApp]#]
+--
+[.card.card-primary.card-gas]
+--
+xref:develop::sfuel/index.adoc[[.card-title]#SKALE Fuel (sFUEL)# [.card-body]#pass:q[The secret to Zero Gas Fees]#]
+--
+[.card.card-primary.card-database]
+--
+xref:filestorage::index.adoc[[.card-title]#Filestorage# [.card-body]#pass:q[A native Web3 storage layer available on each chain]#]
+--
+[.card.card-primary.card-technology]
+--
+link:technology::index.adoc[[.card-title]#SKALE Technology# [.card-body]#pass:q[Deep dive into the technology]#]
+--
+[.card.card-primary.card-delegate]
+--
+xref:validators::delegation.adoc[[.card-title]#Delegation# [.card-body]#pass:q[Delegate SKL tokens to validators]#]
+--
+
+++++
+</div>
+</div>
+++++
+
 == Cu solet
 
 Nominavi luptatum eos, an vim hinc philosophia intellegebat.
