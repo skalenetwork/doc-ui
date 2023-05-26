@@ -7,6 +7,9 @@
   {{#each (pick site.components "introduction")}}
   {{> navigation-component }}
   {{/each}}
+  {{#each (pick site.components "delegators")}}
+  {{> navigation-component }}
+  {{/each}}
 
   <h3 class="nav-title">dApp Developers</h3>
   {{#each (pick site.components "develop")}}
