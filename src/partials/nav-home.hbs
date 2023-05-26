@@ -1,5 +1,6 @@
 <div class="nav-components">
   <h3 class="nav-title">Start here</h3>
+  {{!-- TODO Research This docs component --}}
   {{#each (pick site.components "docs")}}
   {{> navigation-component }}
   {{/each}}
@@ -11,20 +12,19 @@
   {{#each (pick site.components "develop")}}
   {{> navigation-component }}
   {{/each}}
-  {{!-- Infrastructure --}}
+  {{#each (pick site.components "ima")}}
+  {{> navigation-component }}
+  {{/each}}
   {{#each (pick site.components "infrastructure")}}
+  {{> navigation-component }}
+  {{/each}}
+  {{#each (pick site.components "recipes")}}
   {{> navigation-component }}
   {{/each}}
   {{#each (pick site.components "skaled")}}
   {{> navigation-component }}
   {{/each}}
-  {{#each (pick site.components "filestorage")}}
-  {{> navigation-component }}
-  {{/each}}
-  {{#each (pick site.components "ima")}}
-  {{> navigation-component }}
-  {{/each}}
-  {{#each (pick site.components "recipes")}}
+  {{#each (pick site.components "tools")}}
   {{> navigation-component }}
   {{/each}}
 
