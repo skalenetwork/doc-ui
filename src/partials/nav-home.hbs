@@ -1,10 +1,10 @@
 <div class="nav-components">
-  <h3 class="nav-title">Start here</h3>
+  <h3 class="nav-title">Using SKALE</h3>
   {{!-- TODO Research This docs component --}}
   {{#each (pick site.components "docs")}}
   {{> navigation-component }}
   {{/each}}
-  {{#each (pick site.components "learn")}}
+  {{#each (pick site.components "introduction")}}
   {{> navigation-component }}
   {{/each}}
 
@@ -25,6 +25,11 @@
   {{> navigation-component }}
   {{/each}}
   {{#each (pick site.components "tools")}}
+  {{> navigation-component }}
+  {{/each}}
+
+  <h3 class="nav-title">SKALE Chain Operators</h3>
+  {{#each (pick site.components "skale-chain-administration")}}
   {{> navigation-component }}
   {{/each}}
 
