@@ -11,6 +11,10 @@
   {{#each (pick site.components "develop")}}
   {{> navigation-component }}
   {{/each}}
+  {{!-- Infrastructure --}}
+  {{#each (pick site.components "infrastructure")}}
+  {{> navigation-component }}
+  {{/each}}
   {{#each (pick site.components "skaled")}}
   {{> navigation-component }}
   {{/each}}
