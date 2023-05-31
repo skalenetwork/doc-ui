@@ -1,8 +1,9 @@
 :root {
   /* colors */
-  --color-dark-blue: #070766;
+  --color-dark-blue: rgb(36, 36, 167);
+  --color-dark-blue-10: rgb(38, 38, 199);
+
   --color-light-blue: #00BAFF;
-  --color-blue: #173CFF;
 
   --color-blue-white-gradient: linear-gradient(rgb(36, 36, 167) 0%, rgb(9, 141, 222) 100%);
   --color-blue-white-gradient-muted: linear-gradient(rgb(36, 36, 167 / 50%) 0%, rgb(9, 141, 222 / 50%) 100%);
@@ -54,7 +55,7 @@
   --navbar-menu-font-color: var(--color-white);
   --navbar-menu_hover-background: var(--color-smoke-50);
   /* nav */
-  --nav-background: var(--color-dark-blue);
+  --nav-background: var(#070766);
   --nav-background-dark: var(--color-dark-blue);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
