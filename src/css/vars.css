@@ -55,7 +55,7 @@
   --navbar-menu-font-color: var(--color-white);
   --navbar-menu_hover-background: var(--color-smoke-50);
   /* nav */
-  --nav-background: var(#070766);
+  --nav-background: #070766;
   --nav-background-dark: var(--color-dark-blue);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
