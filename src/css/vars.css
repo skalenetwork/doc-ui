@@ -4,9 +4,7 @@
   --color-light-blue: #00BAFF;
   --color-blue: #173CFF;
 
-  --color-blue-white-gradient: var(--color-dark-blue);
-  /* --color-blue-white-gradient: linear-gradient(var(--color-dark-blue) 50%, var(--color-white) 100%); */
-  /* --color-blue-white-gradient: var(--color-dark-blue); */
+  --color-blue-white-gradient: linear-gradient(rgb(36, 36, 167) 0%, rgb(9, 141, 222) 100%);
   --color-blue-white-gradient-muted: linear-gradient(rgb(36, 36, 167 / 50%) 0%, rgb(9, 141, 222 / 50%) 100%);
   --color-transparent: transparent;
 
@@ -56,7 +54,7 @@
   --navbar-menu-font-color: var(--color-white);
   --navbar-menu_hover-background: var(--color-smoke-50);
   /* nav */
-  --nav-background: var(--panel-background);
+  --nav-background: var(--color-dark-blue);
   --nav-background-dark: var(--color-dark-blue);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
