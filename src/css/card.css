@@ -89,6 +89,9 @@
 .card-primary a .card-title::before,
 .card-secondary a .card-title::before {
   content: "";
+  background-image: var(--card-icon);
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 1.2em;
   height: 1.2em;
   display: inline-block;
@@ -117,6 +120,9 @@
   bottom: 30px;
   right: -20px;
   content: "";
+  /* background-image: var(--card-icon);
+  background-repeat: no-repeat;
+  background-size: contain; */
 }
 
 .card-primary a::after {
@@ -143,6 +149,90 @@
 
 .card-upgrades-js a {
   background-image: linear-gradient(-134deg, #3677ff 0%, #1ecff7 100%);
+}
+
+.card-bridge a {
+  --card-icon: url(../img/bridge.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-gas a {
+  --card-icon: url(../img/gas.svg);
+  background-image: linear-gradient(-135deg, #00e1d4 0%, #00c7f2 100%);
+}
+
+.card-code-block a {
+  --card-icon: url(../img/code-block.svg);
+  background-image: linear-gradient(-135deg, #00e1d4 0%, #00c7f2 100%);
+}
+
+.card-build a {
+  --card-icon: url(../img/build.svg);
+  background-image: linear-gradient(-135deg, #00e1d4 0%, #00c7f2 100%);
+}
+
+.card-chain a {
+  --card-icon: url(../img/chain.svg);
+  background-image: linear-gradient(-135deg, #00e1d4 0%, #00c7f2 100%);
+}
+
+.card-database a {
+  --card-icon: url(../img/database.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-delegate a {
+  --card-icon: url(../img/delegate.svg);
+  background-image: linear-gradient(-135deg, #00e1d4 0%, #00c7f2 100%);
+}
+
+.card-oracle a {
+  --card-icon: url(../img/oracle.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-indexer a {
+  --card-icon: url(../img/indexer.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-library a {
+  --card-icon: url(../img/library.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-tools a {
+  --card-icon: url(../img/build.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-wallet a {
+  --card-icon: url(../img/wallet.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-skale a {
+  --card-icon: url(../img/skale.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-metaport a {
+  --card-icon: url(../img/metaport.svg);
+  background-image: linear-gradient(-135deg, rgba(0, 225, 212, .1) 0%, rgba(0, 199, 242, .1)
+  100%);
+}
+
+.card-technology a {
+  --card-icon: url(../img/technology.svg);
+  background-image: linear-gradient(-135deg, #00e1d4 0%, #00c7f2 100%);
 }
 
 .card-defender a {
