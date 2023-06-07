@@ -84,7 +84,7 @@
   --doc-font-size--desktop: calc(17 / var(--rem-base) * 1rem);
   --doc-line-height: 1.6;
   --doc-margin: 0 auto;
-  --doc-margin--desktop: 0 2rem;
+  --doc-margin--desktop: 0 24rem;
   --heading-font-color: var(--color-jet-80);
   --heading-font-weight: normal;
   --alt-heading-font-weight: var(--body-font-weight-bold);
@@ -111,8 +111,8 @@
   --pre-annotation-font-color: var(--color-gray-50);
   --quote-background: var(--panel-background);
   --quote-border-color: var(--color-gray-70);
-  --quote-font-color: var(--color-gray-70);
-  --quote-attribution-font-color: var(--color-gray-30);
+  --quote-font-color: var(--color-white);
+  --quote-attribution-font-color: var(--color-white);
   --sidebar-background: var(--color-smoke-90);
   --table-border-color: var(--panel-border-color);
   --table-stripe-background: var(--panel-background);
@@ -142,8 +142,8 @@
   --toc-height: calc(100vh - var(--toc-top) - 2.5rem);
   --toc-width: calc(162 / var(--rem-base) * 1rem);
   --toc-width--widescreen: calc(216 / var(--rem-base) * 1rem);
-  --doc-max-width: calc(100vw / var(--rem-base) * 1rem);
-  --doc-max-width--desktop: calc(100vw / var(--rem-base) * 1rem);
+  --doc-max-width: calc(80vw / var(--rem-base) * 1rem);
+  --doc-max-width--desktop: calc(80vw / var(--rem-base) * 1rem);
   /* stacking */
   --z-index-nav: 1;
   --z-index-toolbar: 2;
