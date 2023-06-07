@@ -63,6 +63,7 @@
   color: #ff7145;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .hljs-built_in,
 .hljs-builtin-name {
   color: rgb(73, 138, 255);

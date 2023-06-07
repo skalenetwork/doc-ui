@@ -3,5 +3,8 @@
   "rules": {
     "comment-empty-line-before": null,
     "no-descending-specificity": null,
+    "color-function-notation": null,
+    "custom-property-pattern": null,
+    "max-line-length": null
   }
 }

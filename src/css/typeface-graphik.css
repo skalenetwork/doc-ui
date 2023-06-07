@@ -1,43 +1,43 @@
 @font-face {
-  font-family: "Graphik";
+  font-family: Graphik;
   font-style: normal;
   font-weight: 400;
   src:
     local("Graphik Regular"),
     local("Graphik-Regular"),
-    url(./src/fonts/Graphik/graphiklc-regular.woff2) format("woff2"),
-    url(./src/fonts/Graphik/graphiklc-regular.otf) format("otf");
+    url("./src/fonts/Graphik/graphiklc-regular.woff2") format("woff2"),
+    url("./src/fonts/Graphik/graphiklc-regular.otf") format("otf");
 }
 
 @font-face {
-  font-family: "Graphik";
+  font-family: Graphik;
   font-style: italic;
   font-weight: 400;
   src:
     local("Graphik Italic"),
     local("Graphik-Italic"),
-    url(./src/fonts/Graphik/Graphik-LC-Regular-Italic.woff2) format("woff2"),
-    url(./src/fonts/Graphik/Graphik-LC-Regular-Italic.woff) format("woff");
+    url("./src/fonts/Graphik/Graphik-LC-Regular-Italic.woff2") format("woff2"),
+    url("./src/fonts/Graphik/Graphik-LC-Regular-Italic.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Graphik";
+  font-family: Graphik;
   font-style: normal;
   font-weight: 500;
   src:
     local("Graphik Medium"),
     local("Graphik-Medium"),
-    url(./src/fonts/Graphik/GraphikLC-Semibold-Web.woff2) format("woff2"),
-    url(./src/fonts/Graphik/GraphikLC-Semibold-Web.woff) format("woff");
+    url("./src/fonts/Graphik/GraphikLC-Semibold-Web.woff2") format("woff2"),
+    url("./src/fonts/Graphik/GraphikLC-Semibold-Web.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Graphik";
+  font-family: Graphik;
   font-style: italic;
   font-weight: 500;
   src:
     local("Graphik Medium Italic"),
     local("Graphik-MediumItalic"),
-    url(./src/fonts/Graphik/Graphik-LC-Semibold-Italic.woff2) format("woff2"),
-    url(./src/fonts/Graphik/Graphik-LC-Semibold-Italic.woff) format("woff");
+    url("./src/fonts/Graphik/Graphik-LC-Semibold-Italic.woff2") format("woff2"),
+    url("./src/fonts/Graphik/Graphik-LC-Semibold-Italic.woff") format("woff");
 }

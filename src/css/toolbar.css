@@ -17,7 +17,7 @@
 }
 
 .nav-toggle {
-  background: url(../img/menu.svg) no-repeat 50% 47.5%;
+  background: url("../img/menu.svg") no-repeat 50% 47.5%;
   background-size: 49%;
   border: none;
   outline: none;
@@ -35,13 +35,13 @@
 }
 
 .nav-toggle.is-active {
-  background-image: url(../img/back.svg);
+  background-image: url("../img/back.svg");
   background-size: 41.5%;
 }
 
 .home-link {
   display: block;
-  background: url(../img/home-o.svg) no-repeat center;
+  background: url("../img/home-o.svg") no-repeat center;
   height: calc(var(--toolbar-height) / 2);
   width: calc(var(--toolbar-height) / 2);
   margin: calc(var(--toolbar-height) / 4);
@@ -49,7 +49,7 @@
 
 .home-link:hover,
 .home-link.is-current {
-  background-image: url(../img/home.svg);
+  background-image: url("../img/home.svg");
 }
 
 .edit-this-page {

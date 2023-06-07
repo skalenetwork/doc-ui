@@ -1,3 +1,4 @@
+/* stylelint-disable-next-line selector-class-pattern */
 html.is-clipped--navbar {
   overflow-y: hidden;
 }
@@ -78,7 +79,7 @@ body {
 }
 
 .navbar-burger.is-active span:nth-child(2) {
-  opacity: 0;
+  opacity: 0%;
 }
 
 .navbar-burger.is-active span:nth-child(3) {
@@ -155,7 +156,7 @@ body {
 
   .navbar-menu {
     background: var(--navbar-menu-background);
-    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 10%);
     max-height: var(--body-min-height);
     overflow-y: auto;
     padding: 0.5rem 0;

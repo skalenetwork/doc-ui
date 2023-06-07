@@ -5,7 +5,7 @@
   src:
     local("Ubuntu Mono Regular"),
     local("UbuntuMono-Regular"),
-    url(./src/fonts/Ubuntu/UbuntuMono-Regular.ttf) format("truetype");
+    url("./src/fonts/Ubuntu/UbuntuMono-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -15,5 +15,5 @@
   src:
     local("Ubuntu Mono Medium"),
     local("UbuntuMono-Medium"),
-    url(./src/fonts/Ubuntu/UbuntuMono-Bold.ttf) format("truetype");
+    url("./src/fonts/Ubuntu/UbuntuMono-Bold.ttf") format("truetype");
 }

@@ -667,7 +667,7 @@ h1.page + aside.toc.embedded {
   padding: 0.5em;
   color: var(--color-white);
   cursor: auto;
-  opacity: 0;
+  opacity: 0%;
   transition: opacity 0.5s ease 0.75s;
 }
 
@@ -684,7 +684,7 @@ h1.page + aside.toc.embedded {
 }
 
 .doc .source-toolbox .copy-button.clicked .copy-toast {
-  opacity: 1;
+  opacity: 100%;
   transition: none;
 }
 
