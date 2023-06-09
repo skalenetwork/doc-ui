@@ -393,3 +393,57 @@ ____
 == Fin
 
 That's all, folks!
+
+[tabs]
+======
+Hardhat::
++
+====
+
+Hardhat is a popular way to deploy and verify your smart contracts onto Ethereum, and can also be used to deploy and verify your smart contracts on SKALE. 
+
+[source,javascript]
+----
+require("@nomicfoundation/hardhat-toolbox");
+----
+
+
+====
+
+Truffle::
++
+====
+
+Truffle is a popular way
+
+[source,javascript]
+----
+let skale = "[YOUR_SKALE_CHAIN_ENDPOINT]";
+
+----
+
+
+====
+
+Node.js::
++
+====
+
+Node.js
+
+[source,javascript]
+----
+const Web3 = require('web3');
+----
+
+====
+
+Remix::
++
+====
+
+Smart contracts 
+
+====
+
+======

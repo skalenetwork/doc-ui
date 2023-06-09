@@ -10,6 +10,11 @@
     asciidoctor-opal-runtime "0.3.3"
     unxhr "1.0.1"
 
+"@asciidoctor/tabs@^1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@asciidoctor/tabs/-/tabs-1.0.0-beta.5.tgz#9acb1ddcf355f7e6fe17dcb19af06994f5453fe8"
+  integrity sha512-DwtBO2BfqTyCrbP019c2AWlF+DvK5Q59mEEaAkDp9pdaFLeAyzDc1ZR4D5IYUGL3i9Ms9gCpeHDX+Sp6zNjb8Q==
+
 "@babel/code-frame@^7.0.0":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
