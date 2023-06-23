@@ -33,6 +33,11 @@
   {{> navigation-component }}
   {{/each}}
 
+    <h3 class="nav-title">SKALE DAO Governance</h3>
+  {{#each (pick site.components "governance")}}
+  {{> navigation-component }}
+  {{/each}}
+
   <h3 class="nav-title">Validators</h3>
   {{#each (pick site.components "validators")}}
   {{> navigation-component }}
